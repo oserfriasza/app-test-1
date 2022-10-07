@@ -1,15 +1,16 @@
 import React from "react";
-/* import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
-import { TiposBasicos } from './typescript/TiposBasicos'; */
-import {Contador} from './components/Contador';
-
+// import { Contador } from "./components/Contador";
+import { Contador } from "./components/Contador";
+import { ContadorHook } from "./components/ContadorHook";
 const App = () => {
   return (
     <div>
       <h1>Introducción a Type Script with React</h1>
-      <hr/>
-      {<Contador/>}
+      <hr />
+      {/* {<Contador />} */}
+      {<ContadorHook/>}
     </div>
   );
 };
+
 export default App;
