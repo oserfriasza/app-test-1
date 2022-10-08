@@ -1,4 +1,5 @@
 import React from "react";
+import { Formularios } from "./components/Formularios";
 // import { Contador } from "./components/Contador";
 // import { Contador } from "./components/Contador";
 // import { ContadorHook } from "./components/ContadorHook";
@@ -13,7 +14,8 @@ const App = () => {
       {/* {<Contador />} */}
       {/* {<ContadorHook/>} */}
       {/* {<Login/>} */}
-      {<Usuarios/>}
+      {/* {<Usuarios/>} */}
+      {<Formularios/>}
     </div>
   );
 };
